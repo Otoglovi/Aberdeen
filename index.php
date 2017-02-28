@@ -24,5 +24,24 @@
     }
     ?>
 </p>
+<p>
+    <?php
+    $wantedgood = 'mugs';
+
+    switch ($wantedgood){
+        case 'specs':
+            echo "You have to be 16 to buy mugs";
+            break;
+        case 'mugs':
+            echo "You have to be 18 to buy mugs";
+            break;
+        case 'sausage rolls':
+            echo "You have to be 18 to buy mugs";
+            break;
+        default:
+            echo "Nothing available";
+    }
+    ?>
+</p>
 </body>
 </html>

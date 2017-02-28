@@ -7,7 +7,7 @@
 <p>
     <?php
     $myname = "Kay";
-    $myage = 15;
+    $myage = 21;
 
     if ($myage == 16){
         print "Welcome ". $myname. ". \nYou are only allowed to buy specs";

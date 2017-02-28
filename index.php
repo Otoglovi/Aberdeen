@@ -36,7 +36,7 @@
             echo "You have to be 18 to buy mugs";
             break;
         case 'sausage rolls':
-            echo "You have to be 18 to buy mugs";
+            echo "You have to be 21 to buy mugs";
             break;
         default:
             echo "Nothing available";

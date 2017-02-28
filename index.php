@@ -10,7 +10,7 @@
     $myage = 12;
 
     if ($myage == 16){
-        print "Welcome ". $myname. ". You are only allowed to buy specs";
+        print "Welcome ". $myname. ". \nYou are only allowed to buy specs";
     }
     else if ($myage == 18){
         print "Welcome ". $myname. ". You are only allowed to buy mugs";
@@ -19,7 +19,7 @@
         print "Welcome ". $myname. ". You are only allowed to buy sausage rolls";
     }
     else{
-        print "Welcome ". $myname. ". Sorry!!! You are under age. You cannot buy 
+        print "Welcome ". $myname. ". \nSorry!!! You are under age. \nYou cannot buy 
         anything in Aberdeen";
     }
     ?>

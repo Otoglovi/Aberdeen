@@ -69,7 +69,13 @@
 <p>
     <?php
     for ($d = 1; $d <= 30; $d++){
-        echo "<p>Hello!</p>";
+        $x = 30;
+        if ($d%4 == 0){
+            echo "<p>Hello!</p>";
+        }
+        else{
+            echo "<p>No!</p>";
+        }
     }
     ?>
 </p>

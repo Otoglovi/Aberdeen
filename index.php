@@ -69,9 +69,8 @@
 <p>
     <?php
     for ($d = 1; $d <= 30; $d++){
-        $x = 30;
         if ($d%4 == 0){
-            echo "<p>Hello!</p>";
+            echo "<p>On the $d of the month Specs and Sausage Rolls are available</p>";
         }
         else{
             echo "<p>No!</p>";

@@ -43,5 +43,14 @@
     }
     ?>
 </p>
+<p>
+    <?php
+    $provisionedActivities = array("Specs", "Mugs", "Sausage Rolls");
+
+    foreach ($provisionedActivities as $x){
+        print "<p>$x</p>";
+    }
+    ?>
+</p>
 </body>
 </html>

@@ -54,7 +54,9 @@
     $provisionedActivities[1] = "Hugs";
     echo "<br/> Mugs have been modified to a more friendly alternative";
 
-    foreach ($provisionedActivities as $x);
+    foreach ($provisionedActivities as $x){
+        print "<p>$x</p>";
+    };
     ?>
 </p>
 </body>

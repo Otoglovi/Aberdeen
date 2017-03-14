@@ -70,10 +70,16 @@
     <?php
     for ($d = 1; $d <= 30; $d++){
         if ($d%4 == 0){
-            echo "<p>On the $d of the month Specs and Sausage Rolls are available</p>";
+            echo "<p>On the .$d. th of the month Specs and Sausage Rolls are available</p>";
+        }
+        elseif ($d%3 == 0){
+            echo "<p>On the .$d. th of the month Mugs are available</p>";
+        }
+        elseif ($d%2 == 0){
+            echo "<p>On the .$d. th of the month Specs are available</p>";
         }
         else{
-            echo "<p>No!</p>";
+            echo "<p>On the .$d. th of the month no products are available</p>";
         }
     }
     ?>

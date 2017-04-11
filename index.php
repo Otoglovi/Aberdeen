@@ -79,7 +79,7 @@
             echo "<p>On the $d of the month Specs are available</p>";
         }
         else{
-            echo "<p>On the $d of the month no products are EDITED BY MEEEEEEEE available</p>";
+            echo "<p>On the $d of the month no products are available</p>";
         }
     }
     ?>
